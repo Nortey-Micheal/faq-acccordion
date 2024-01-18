@@ -68,7 +68,7 @@ h2 {
 
 div + p {
     color: hsl(292, 16%, 49%);
-    margin-top: -100px;
+    margin-top: -80px;
     margin-bottom: 30px;
     display: none;
 }
@@ -109,7 +109,7 @@ div {
 
 @media (max-width: 768px) {
     .container {
-        width: 400px;
+        width: 70vw;
         height: 80vh;
         margin: 5rem auto;
     }
