@@ -12,33 +12,33 @@ buttons.forEach(function (button) {
 })
 
 function verifyImage(event) {
-    if (event.target.style.backgroundImage == `url("assets/images/icon-plus.svg")`) {
-        event.target.style.backgroundImage =`url("assets/images/icon-minus.svg")`;
+    if (event.target.style.backgroundImage == `url("assets/images/icon-minus.svg")`) {
+        event.target.style.backgroundImage = `url("assets/images/icon-plus.svg")`;
     }  else {
-         event.target.style.backgroundImage = `url("assets/images/icon-plus.svg")`;
+        event.target.style.backgroundImage = `url("assets/images/icon-minus.svg")`;
     }
 }
 
 function verifyPara(event) {
-    if (event.target.style.backgroundImage == `url("assets/images/icon-plus.svg")`) {
+    if (event.target.style.backgroundImage == `url("assets/images/icon-minus.svg")`) {
         switch (event.target) {
             case buttons[0]:
                 para1.style.display = "block";
                 para2.style.display = "none";
                 para3.style.display = "none";
                 para4.style.display = "none";
-                buttons[1].style.backgroundImage =`url("assets/images/icon-minus.svg")`;
-                buttons[2].style.backgroundImage =`url("assets/images/icon-minus.svg")`;
-                buttons[3].style.backgroundImage =`url("assets/images/icon-minus.svg")`;
+                buttons[1].style.backgroundImage =`url("assets/images/icon-plus.svg")`;
+                buttons[2].style.backgroundImage =`url("assets/images/icon-plus.svg")`;
+                buttons[3].style.backgroundImage =`url("assets/images/icon-plus.svg")`;
                 break;
             case buttons[1]:
                 para2.style.display = "block";
                 para1.style.display = "none";
                 para3.style.display = "none";
                 para4.style.display = "none";
-                buttons[0].style.backgroundImage =`url("assets/images/icon-minus.svg")`;
-                buttons[2].style.backgroundImage =`url("assets/images/icon-minus.svg")`;
-                buttons[3].style.backgroundImage =`url("assets/images/icon-minus.svg")`;
+                buttons[0].style.backgroundImage =`url("assets/images/icon-plus.svg")`;
+                buttons[2].style.backgroundImage =`url("assets/images/icon-plus.svg")`;
+                buttons[3].style.backgroundImage =`url("assets/images/icon-plus.svg")`;
                 
                 break;
             case buttons[2]:
@@ -46,18 +46,18 @@ function verifyPara(event) {
                 para1.style.display = "none";
                 para2.style.display = "none";
                 para4.style.display = "none";
-                buttons[0].style.backgroundImage =`url("assets/images/icon-minus.svg")`;
-                buttons[1].style.backgroundImage =`url("assets/images/icon-minus.svg")`;
-                buttons[3].style.backgroundImage =`url("assets/images/icon-minus.svg")`;
+                buttons[0].style.backgroundImage =`url("assets/images/icon-plus.svg")`;
+                buttons[1].style.backgroundImage =`url("assets/images/icon-plus.svg")`;
+                buttons[3].style.backgroundImage =`url("assets/images/icon-plus.svg")`;
                 break;
             case buttons[3]:
                 para4.style.display = "block";
                 para1.style.display = "none";
                 para2.style.display = "none";
                 para3.style.display = "none";
-                buttons[0].style.backgroundImage =`url("assets/images/icon-minus.svg")`;
-                buttons[1].style.backgroundImage =`url("assets/images/icon-minus.svg")`;
-                buttons[2].style.backgroundImage =`url("assets/images/icon-minus.svg")`;
+                buttons[0].style.backgroundImage =`url("assets/images/icon-plus.svg")`;
+                buttons[1].style.backgroundImage =`url("assets/images/icon-plus.svg")`;
+                buttons[2].style.backgroundImage =`url("assets/images/icon-plus.svg")`;
                 break;
         }
     } else {
