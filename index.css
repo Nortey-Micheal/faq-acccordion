@@ -83,7 +83,7 @@ input[type="button"] {
     border-radius: 50%;
     background-position: center;
     border: #f4f4f4 1px solid;
-    text-indent: -9999px;
+    text-indent: -9999px;    /* hides input value */
 }
 
 img:hover {
