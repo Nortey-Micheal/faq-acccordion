@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll("button");
+const buttons = document.querySelectorAll(`input[type="button"]`);
 let para1 = document.querySelector(".first");
 let para2 = document.querySelector(".second");
 let para3 = document.querySelector(".third");
