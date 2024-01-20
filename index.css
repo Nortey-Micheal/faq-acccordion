@@ -113,4 +113,13 @@ div {
         height: 80vh;
         margin: 5rem auto;
     }
+
+    button {
+        border-radius: 50%;
+        width: 50px;
+    }
+
+    div + p {
+        margin-top: -20px;
+    }
 }
